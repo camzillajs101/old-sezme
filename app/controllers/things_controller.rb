@@ -1,5 +1,5 @@
 class ThingsController < ApplicationController
   def index
-    #bruh
+    @things = Thing.all
   end
 end
